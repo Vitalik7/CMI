@@ -148,9 +148,9 @@ body {
 }
 .section_name_label:before {
     content: '';
-    border: 49px solid transparent;
-    border-left: 49px solid black;
-    border-top: 49px solid black;
+    border: 50px solid transparent;
+    border-left: 50px solid black;
+    border-top: 50px solid black;
     position: absolute;
     top: 0;
     left: 100%;
@@ -204,30 +204,31 @@ body {
 
 #kontakt_left {
     float: left;
-    padding: 22% 0% 0% 0%;
+    padding: 22% 0% 0% 10%;
     line-height: 20px;
     font-size: 16px;
     margin-left: 18px;
-    width: 30%;
-    border-bottom: 2px solid #ccc;
+    width: 20%;
 }
 
 #kontakt_left h5 {
     border-top: 2px solid #ccc;
     padding: 4% 7% 0% 0%;
 }
+#kontakt_left p{
+    border-bottom: 2px solid #ccc;
+}
 
 #kontakt_right {
-    padding: 19% 0% 0% 2%;
-    float: left;
-    width: 70%;
+    padding: 19% 20% 0% 2%;
+    float: right;
+    width: 50%;
 }
 
 #wraper_kontakt_form {
     padding: 0% 0% 6% 0%;
-    max-width: 452px;
     float: right;
-    width: 100%;
+    width: 84%;
     margin-top: -10px;
 }
 
@@ -322,12 +323,13 @@ body {
     margin-left: 23px;
     letter-spacing: 1px;
     margin-top: 4px;
+    padding: 0% 3%;
     width: 50%;
 }
 
 #footer_right {
     float: right;
-    width: 12%;
+    width: 17%;
     margin-right: 21px;
     margin-top: 4px;
     letter-spacing: 1px;
@@ -473,12 +475,10 @@ body {
 
     #footer_left {
         margin: 0;
-        padding: 0;
 
     }
 
     #footer_right {
-        width: 38%;
     }
 
 
